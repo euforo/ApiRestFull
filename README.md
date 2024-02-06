@@ -19,7 +19,7 @@ A API segue os pilares fundamentais da arquitetura REST:
 5. **Layered System:** A arquitetura pode ser composta por camadas hierárquicas, facilitando a escalabilidade e a manutenção.
 
 ## HATEOAS (Hypermedia as the Engine of Application State)
-Além dos princípios RESTful, a API implementa o HATEOAS. Isso significa que as respostas incluem links para recursos relacionados, permitindo que o cliente navegue pela aplicação de maneira dinâmica.
+A API implementa o HATEOAS. Isso significa que as respostas incluem links para recursos relacionados, permitindo que o cliente navegue pela aplicação de maneira dinâmica.
 
 Por exemplo:
 - Ao obter a lista de produtos, cada produto possui links para visualizar detalhes específicos desse produto.
